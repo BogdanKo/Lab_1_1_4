@@ -1,0 +1,4 @@
+c:\users\svf\documents\visual studio 2013\Projects\CSharp_Net-module1_1_4–lab\CSharp_Net-module1_1_4–lab\bin\Debug\CSharp_Net-module1_1_4–lab.exe.config
+D:\documents\C#_classes\KondrusikB\C#_BrainAcademy_Homework\KondrusikB_Labs\CSharp_Net-module1_1_4-lab\CSharp_Net-module1_1_4-lab\CSharp_Net-module1_1_4-lab\bin\Debug\CSharp_Net-module1_1_4–lab.exe.config
+D:\documents\C#_classes\KondrusikB\C#_BrainAcademy_Homework\KondrusikB_Labs\labs\CSharp_Net-module1_1_4-lab\CSharp_Net-module1_1_4-lab\CSharp_Net-module1_1_4-lab\bin\Debug\CSharp_Net-module1_1_4–lab.exe.config
+D:\documents\C#_classes\KondrusikB\C#_BrainAcademy_Homework\KondrusikB_Labs\labs\CSharp_Net-module1_1_4-lab\CSharp_Net-module1_1_4-lab\CSharp_Net-module1_1_4-lab\obj\Debug\CSharp_Net-module1_1_4-lab.csprojResolveAssemblyReference.cache
