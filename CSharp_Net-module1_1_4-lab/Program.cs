@@ -25,6 +25,7 @@ namespace CSharp_Net_module1_1_4_lab
             public ComputerType TypePC;
         }
 
+        //RV: There is no console output of the results. If you'd added the output, you'd have seen that not everything is alright. Please make changes noted below and add output.
         static void Main(string[] args)
         {
 
@@ -136,7 +137,7 @@ namespace CSharp_Net_module1_1_4_lab
                         case ComputerType.Laptop:
                             totLapTopAmount++;
                             break;
-                        case ComputerType.Server:
+                        case ComputerType.Server: //RV: What about servers?
 
                             break;
 
@@ -160,10 +161,10 @@ namespace CSharp_Net_module1_1_4_lab
                 for (byte j = 0; j < departments[i].Length; j++)
                 {
 
-                    if (departments[i][j].HDD > Big_HDD)
+                    if (departments[i][j].HDD > Big_HDD) //RV: Big_HDD equals to 0, doesn't it? So every HDD is larger than Big_HDD. 
                     {
 
-                        departments[i][j].HDD = Big_HDD;
+                        departments[i][j].HDD = Big_HDD; //RV: If I understand you right you wanted to do the following: Big_HDD = departments[i][j].HDD; In this case we store the largest HDD value in Big_HDD and not zero.
                         Inner_Arr_For_Big_HD_Pos[0] = i;
                         Inner_Arr_For_Big_HD_Pos[1] = j;
 
@@ -187,10 +188,10 @@ namespace CSharp_Net_module1_1_4_lab
                 for (byte j = 0; departments[i].Length < j; j++)
                 {
 
-                    if ((departments[i][j].CPU < Low_CPU) && (departments[i][j].memory < Low_Memory))
+                    if ((departments[i][j].CPU < Low_CPU) && (departments[i][j].memory < Low_Memory)) 
                     {
 
-                        departments[i][j].CPU = Low_CPU;
+                        departments[i][j].CPU = Low_CPU; //RV: The same thing as above
                         departments[i][j].memory = Low_Memory;
 
                         inner_arr_for_lowest_CPU[0] = i;
